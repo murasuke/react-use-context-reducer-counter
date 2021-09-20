@@ -10,8 +10,7 @@ const CenterdDiv = styled.div`
 const App: VFC = () => (
   <CenterdDiv className="App">
     <header>
-      <h1>ビーズカウンターuseContext, useReducer併用</h1>
-      コンポーネント毎にstateを保持する
+      <h1>ビーズカウンターuseContext, useReducer併用版</h1>
     </header>
     <CounterWidget />
     <CounterWidget initialCount={3} />
