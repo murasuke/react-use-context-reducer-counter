@@ -1,6 +1,6 @@
 import React, { VFC, useReducer } from 'react';
-
 import { CounterContext, CounterState, counterSlice } from 'features/couters';
+
 import ColorfulBeads from './ColorfulBeads';
 import CounterBoard from './CounterBoard';
 

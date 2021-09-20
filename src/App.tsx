@@ -1,16 +1,21 @@
 import { VFC } from 'react';
+import styled from 'styled-components';
 
 import CounterWidget from 'components/CounterWidget';
 
-import './styles.css';
+const CenterdDiv = styled.div`
+  text-align: center;
+`;
 
 const App: VFC = () => (
-  <div className="App">
+  <CenterdDiv className="App">
     <header>
-      <h1>ビーズカウンター()useContext, useReducer併用</h1>
+      <h1>ビーズカウンターuseContext, useReducer併用</h1>
+      コンポーネント毎にstateを保持する
     </header>
+    <CounterWidget />
     <CounterWidget initialCount={3} />
-  </div>
+  </CenterdDiv>
 );
 
 export default App;
